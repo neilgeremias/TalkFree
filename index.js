@@ -1,7 +1,7 @@
 var express = require('express');
 const path = require('path');
 var app = express();
-const port = 8080
+const port = 10000
 
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
